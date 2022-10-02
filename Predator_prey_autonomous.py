@@ -8,11 +8,11 @@ plt.show()
 def predator_prey(t, x, r=2, f=.04, b=0.5, c1=0.6, beta=2, h=0.02, d=.03, c2=0.4):
     """
     Given:
-       x, y, z: a point of interest in three dimensional space
-       s, r, b: parameters defining the lorenz attractor
+       t, x: a point of interest in two dimensional space
+       r, f, b, c1, beta, h, d, c2: parameters defining the autonomous system
     Returns:
-       x_dot, y_dot, z_dot: values of the Autonomous system's partial
-           derivatives at the point x, y, z
+       x_dot, y_dot: values of the Autonomous system's partial
+           derivatives at the point x, y
     """
 
 
